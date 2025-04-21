@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    display: flex;
+    align-items: center;
+      justify-content: center;
+min-height: 100vh;
+    overflow: hidden;
+    }
+    .container {
+        max-width: 2800px;
+        margin: auto;
+        padding: 140px;
+      }
+    
+      .profile-detail-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+        flex-wrap: wrap;
+      }
+    
+      .left-side-container {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        flex: 1;
+        min-width: 300px;
+      }
+    
+      .left-side-container img {
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+    
+      .left-text {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+      }
+    
+      .left-text h1 {
+        margin: 0;
+        font-size: 32px;
+        color: #000000;
+      }
+    
+      .left-text p {
+        margin: 0;
+        color: #666;
+        font-size: 20px;
+      }
+    
+      .right-side-container {
+        flex: 1;
+        min-width: 800px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+    
+      .right-side-container p {
+  
+        font-size: 20px;
+      }
+    
+      .right-side-container a {
+        color: #0073e6;
+        text-decoration: none;
+      }
+    
+      .right-side-container a:hover {
+        text-decoration: underline;
+      }
+      .section-wrapper {
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+        flex-wrap: wrap;
+        padding: 20px;
+      }
+    
+      .education-detail-container,
+      .experience-detail-container {
+        flex: 1;
+        min-width: 350px;
+        padding: 25px;
+      }
+    
+      .education-detail-container h2,
+      .experience-detail-container h2 {
+        font-size: 22px;
+        margin-bottom: 15px;
+        color: #1C8EB5;
+      }
+    
+      .education-work-content,
+      .experience-work-content {
+        margin-bottom: 20px;
+      }
+    
+      .education-work-content h3,
+      .experience-work-content h3 {
+        font-size: 16px;
+        margin: 10px 0 5px;
+      }
+    
+      .experience-work-content h6 {
+        font-size: 14px;
+        margin: 0 0 10px;
+        color: #777;
+      }
+    
+      .education-work-content p,
+      .experience-work-content p {
+        font-size: 14px;
+        color: #555;
+        margin-bottom: 10px;
+      }
+    
+      /* Skills Two-Column Layout */
+      .skill-section-wrapper {
+        margin-top: 20px;
+      }
+    
+      .skill-detail-container {
+        padding: 20px;
+  
+      }
+      .skill-detail-container h2{
+        color: #1C8EB5;
+      }
+    
+      .skill-columns {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        gap: 20px;
+      }
+    
+      .skill-group h3 {
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+    
+      .skill-group ul {
+        padding-left: 20px;
+        margin: 0;
+      }
+    
+      .skill-group li {
+        font-size: 14px;
+        color: #444;
+        margin-bottom: 5px;
+      }
+      .project-detail-container {
+        padding: 30px;
+        margin: 40px 0;
+    
+      }
+    
+      .project-detail-container h2 {
+        font-size: 24px;
+        margin-bottom: 25px;
+        color: #1C8EB5;
+      }
+    
+      .project-work-content {
+        margin-bottom: 30px;
+        padding-bottom: 20px;
+      }
+    
+      .project-work-content:last-child {
+        border-bottom: none;
+        margin-bottom: 0;
+        padding-bottom: 0;
+      }
+    
+      .project-work-content h3 {
+        font-size: 18px;
+        margin-bottom: 8px;
+        color: #222;
+      }
+    
+      .project-work-content h6 {
+        font-size: 14px;
+        color: #1C8EB5;
+        margin-bottom: 12px;
+      }
+    
+      .project-work-content p {
+        font-size: 14px;
+        color: #444;
+        margin-bottom: 8px;
+      }
